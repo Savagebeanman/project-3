@@ -1,6 +1,6 @@
 while (true) {
     music.setVolume(100)
-    if (input.lightLevel() < 10 && input.soundLevel() > 150) {
+    if (input.lightLevel() < 3 && input.soundLevel() > 150) {
         light.setAll(light.rgb(255, 0, 0))
         music.wawawawaa.playUntilDone()
         pause(5000)
