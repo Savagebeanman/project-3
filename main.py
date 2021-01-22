@@ -1,5 +1,4 @@
 while True:
-    print("Sound is - "+ input.sound_level())
     music.set_volume(100)
 
     if input.light_level() < 10 and input.sound_level() > 150:
